@@ -12,19 +12,14 @@
       <div class="container">
         <h1>burp-hash</h1>
         <h3>Passively scan for hashed values with Burp Suite</h3>
-        <p>Many applications will hash parameters such as ID numbers and email addresses for use in secure tokens, like session cookies. A java extension for <a href="http://portswigger.net/burp/">Burp Suite</a>, burp-hash will passively scan requests and responses looking for hashed values. Once a hashed value is found, it is compared to a table of parameters already observed in the application to find a match. The plugin keeps a lookout for parameters such as usernames, email addresses, and ID numbers. It also keeps a lookout for hashes (SHA, MD5, etc). It hashes new data and compares to observed hashes. The user receives a notification if any hashes match. This automates the process of trying to guess common parameters used in the generation of hashes observed in an application.</p>
+        <p>Many applications will hash parameters such as ID numbers and email addresses for use in secure tokens, like session cookies. A java extension for <a href="http://portswigger.net/burp/">Burp Suite</a>, burp-hash will passively scan requests and responses looking for hashed values. Once a hashed value is found, it is compared to a table of parameters already observed in the application to find a match. The extension keeps a lookout for parameters such as usernames, email addresses, and ID numbers. It also keeps a lookout for hashes (SHA, MD5, etc). It hashes new data and compares to observed hashes. The user receives a notification if any hashes match. This automates the process of trying to guess common parameters used in the generation of hashes observed in an application.</p>
         <p><a class="btn btn-primary btn-lg" href="https://github.com/burp-hash/burp-hash" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
 
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h2>See us at Black Hat</h2>
-          <p>We are pleased to announce burp-hash has been accepted for Black Hat USA Arsenal 2015.</p>
-          <p><a class="btn btn-default" href="https://www.blackhat.com/us-15/arsenal.html#burp-hash" role="button">View details &raquo;</a></p>
-        </div>
-<!--
+<!-- future news can be added in these two column divs:
         <div class="col-md-4">
           <h2></h2>
           <p></p>
@@ -36,13 +31,18 @@
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
 -->
+        <div class="col-md-4">
+          <h2>See us at Black Hat</h2>
+          <p>We are pleased to announce burp-hash has been accepted for Black Hat USA Arsenal 2015.</p>
+          <p><a class="btn btn-default" href="https://www.blackhat.com/us-15/arsenal.html#burp-hash" role="button">View details &raquo;</a></p>
+        </div>
       </div>
 
-      <hr>
+      <!--<hr>
 
       <footer>
-        <!--<p>&copy; 2015</p>-->
-      </footer>
+        <p>&copy; 2015</p>
+      </footer>-->
     </div> <!-- /container -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
